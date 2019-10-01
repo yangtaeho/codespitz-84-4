@@ -1,0 +1,49 @@
+.DS_Store
+.gradle
+/*/build/
+/*/bin/
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.project
+.factorypath
+.settings
+.springBeans
+.sts4-cache
+/*/src/main/resources/application-dev.properties
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+
+### NetBeans ###
+/*/nbproject/private/
+/*/nbbuild/
+/*/dist/
+/*/nbdist/
+/*/.nb-gradle/
+/*/_data/
+/*/out/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# SYSTEM
+.DS_Store
+**/.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+.vscode
+
+*.zip
