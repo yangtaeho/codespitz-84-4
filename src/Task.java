@@ -31,11 +31,7 @@ public class Task {
         return date;
     }
 
-    public Boolean getComplete() {
+    public Boolean isComplete() {
         return this.isComplete;
-    }
-
-    public void setComplete(Boolean complete) {
-        this.isComplete = complete;
     }
 }

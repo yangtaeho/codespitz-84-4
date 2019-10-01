@@ -33,7 +33,7 @@ public class CompositeTask {
         return date;
     }
 
-    public boolean getComplete() {
+    public boolean isComplete() {
         return isComplete;
     }
 
